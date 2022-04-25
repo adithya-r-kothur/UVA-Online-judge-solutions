@@ -12,7 +12,8 @@ int main() {
 		scanf("%d %d", &up, &down);
 		int d = up - down;
 
-		for (int i = 0; i < n - 1; i++) {
+		for (int i = 0; i < n - 1; i++) 
+		{
 			scanf("%d %d", &up, &down);
 			if (d != up - down)
 				yes = false;
